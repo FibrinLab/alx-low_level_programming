@@ -1,4 +1,11 @@
 #include <stdio.h>
+
+/**
+ * This is my first c program
+ *
+ *
+ */
+
 int main()
 {
 	puts("\"Programming is like building a multilingual puzzle");
