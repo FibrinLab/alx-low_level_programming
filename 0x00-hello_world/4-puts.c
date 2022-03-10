@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main- This is my first c program
- * return
+ * main - prints the phrase "Programming is like building a multilingual puzzle
+ * Return 0 if successful
  *
  */
 
