@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * This is my first c program
- *
+ * main- This is my first c program
+ * return
  *
  */
 
