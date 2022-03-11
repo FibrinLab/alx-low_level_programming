@@ -1,0 +1,27 @@
+#include <stdlib.h>
+#include <time.h>
+/*
+ * main - contains an If statement that checks if a number is positive or negative
+ * Returns (0) if sucessful
+ *
+ */
+int main(void)
+{
+	int v;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+	{
+		puts("is positive");
+	}
+	else if (n == 0)
+	{
+		puts("is zero");
+	}
+	else
+	{
+		puts("is negative");
+	}
+	return (0);
+}
