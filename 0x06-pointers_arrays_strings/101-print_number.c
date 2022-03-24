@@ -6,7 +6,7 @@
  * Return: Nothing (void)
  */
 
-void print_number(int num)
+void print_number(int n)
 {
 	unsigned int firstnum = 0;
 
