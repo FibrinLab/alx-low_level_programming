@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints a text to the screen followed by a new line
+ * main - Prints a text to the screen followed by a new line
  *
- * Returns - Zero if successful
+ * Returns: string
  */
 
 int main(void)
