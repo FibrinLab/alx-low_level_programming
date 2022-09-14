@@ -3,7 +3,7 @@
 /**
  * main - Prints a text to the screen followed by a new line
  *
- * Returns: string
+ * Return: Always 0 (Success)
  */
 
 int main(void)
