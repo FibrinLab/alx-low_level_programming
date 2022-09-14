@@ -1,17 +1,6 @@
-#include <unistd.h>
+#ifndef MAIN_H
+#define MAIN_H
 
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
+int _putchar(char c);
 
-int print_alphabet()
-{
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		_putchar(c);
-	}
-	return (0);
-}
+#endif
