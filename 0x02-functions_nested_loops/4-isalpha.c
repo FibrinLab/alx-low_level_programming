@@ -8,7 +8,7 @@
 
 int _isalpha(int c)
 {
-	char c;
+	int c;
 
 	for (c = 'A'; c <= 'z'; c++)
 	{
