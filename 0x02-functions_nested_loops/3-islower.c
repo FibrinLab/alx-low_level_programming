@@ -10,17 +10,17 @@ int _islower(int c)
 {
 	int a;
 
-	while(a < 'a')
+	for (a = 'a'; a <= 'z'; a++)
 	{
-		if (a !== a)
+		if (a == c)
 		{
-			return (1)
+			return (0);
+			break;
 		}
 		else
 		{
-			return (0)
+			return (1);
+			break;
 		}
-		a++;
-	}	
 	return (0);
 }
