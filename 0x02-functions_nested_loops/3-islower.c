@@ -8,18 +8,19 @@
 
 int _islower(int c)
 {
-	int a;
+	int char;
 
-	for (a = 'a'; a <= 'z'; a++)
+	while(a < 'a')
 	{
-		if (a == c)
+		if (char !== a)
 		{
-			return (1);
+			return (1)
 		}
 		else
 		{
-			return (0);
+			return (0)
 		}
-	}
+		a++;
+	}	
 	return (0);
 }

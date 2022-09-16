@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "echo $RANDOM"
+git commit -m echo $RANDOM | base64 | head -c 20
 git push
