@@ -22,5 +22,6 @@ int _islower(int c)
 			return (1);
 			break;
 		}
+	}
 	return (0);
 }
