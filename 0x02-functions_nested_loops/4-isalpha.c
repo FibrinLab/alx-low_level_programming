@@ -8,11 +8,16 @@
 
 int _isalpha(int c)
 {
-	int c;
-
-	for (c = 'A'; c <= 'z'; c++)
+	if (c >= 'a' && c <= 'z')
 	{
-		_putchar(c)
+	return (1);
 	}
-	return (0);
+	else if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
